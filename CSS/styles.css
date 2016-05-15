@@ -1,0 +1,223 @@
+
+
+
+body {
+	background-image: url("../images/dogpark2.jpg");
+}
+
+p {
+    text-indent: 1em;
+}
+
+blockquote {
+	text-indent:2em;
+}
+
+h2 {
+	font-family:arial;
+}
+
+h2.paraheader {
+	margin-left:2em;
+	position:relative;
+	top:30px;
+
+}
+
+div#header img {
+	float:left;
+	margin: .9em .6em 0 .2em;
+	padding-top:.2em;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+div#header h1 {
+	float:left;
+	display:inline;
+	padding-left:.2em;
+}
+
+div#header {
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	background-color:#F2EFC9;
+	
+}
+
+li.changeBackground:hover > a{
+	color:#FF91FF !important;
+}
+
+div#navbar {
+	display:inline;
+	clear:both;
+	width:100%;
+}
+
+div#navbar ul {
+	list-style-type:none;
+	padding-left:0;
+	margin-left:.5em;
+	float:right;
+	margin-top:2em;
+}
+
+
+div#navbar ul li {
+	display:inline;
+	clear:both;
+}
+
+
+div#navbar  ul li a {
+	/*background-color:#900000;*/
+	display:inline;
+	/*width:19%;*/
+	padding-left:.65em;
+	padding-right:.65em;
+	margin-right:.2em;
+	font-size:1.5em;
+}
+
+@media only screen and (max-width:1000px){
+	div#navbar ul li a {
+		font-size:1em;
+		float:left;
+		padding:.25em;
+		margin:.15em;
+
+	}
+}
+
+@media only screen and (max-width:400px){
+	div#navbar ul li a {
+		font-size:.65em;
+		float:left;
+		padding:.25em;
+		margin:.15em;
+
+	}
+}
+
+
+
+div#navbar ul li a {
+	font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+	font-weight:900;
+	text-decoration:none;
+	color:#368FAD;
+	padding:.5em .5em .2em .5em;
+
+}
+
+
+
+li.activePage a{
+	/*background-color:#B5BBBD;*/
+	border-bottom: 3px solid !important; 
+	border-color:#368FAD !important;
+	margin-bottom:2px;
+
+}
+
+div#invisible-header {
+	width:100%;
+	visibility:hidden;
+}
+
+#main{
+	min-height:900px;
+	width:87%;
+	background-color:rgba(255,255,255,0.7);
+	margin:auto;
+	margin-top:7em;
+}
+
+@media only screen and (max-width:670px) {
+
+
+		#main{
+			min-height:900px;
+			width:87%;
+			background-color:rgba(255,255,255,0.7);
+			margin:auto;
+			margin-top:14em;
+		}
+
+}
+
+#main-text p {
+	padding-bottom:.2em;
+	margin:1em;
+}
+
+.textWrap{
+	float:right;
+	margin-top:1em;
+	margin-right:1em;
+	margin-left:.3em;
+}
+
+#main-text blockquote {
+	line-height:180%;
+	padding-top:2em;
+}
+
+.content {
+	margin:1em;
+}
+
+div#navbar {
+	width:100%;
+
+}
+
+.top-par {
+	padding-top:2em;
+}
+
+img.pigbull {
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+
+}
+
+#pitheader {
+	text-align:center;
+	font-size:2em;
+}
+
+/*FAQ page*/
+#FAQ {
+	padding:5px;
+	margin-left:5px;
+
+}
+
+#FAQ p {
+	text-indent:0;
+}
+.FAQheader {
+	text-align:center;
+	font-size:2em;
+}
+
+div#FAQ h3 {
+	font-size:1.2em;
+	font-family:Arial;
+
+}
+
+/*Contact Page*/
+
+#contact, #askbox h2, h3 {
+	margin-left:.5em;
+	font-family:arial;
+
+}
