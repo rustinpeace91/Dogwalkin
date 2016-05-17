@@ -49,8 +49,8 @@ div#header {
 	
 }
 
-li.changeBackground:hover > a{
-	color:#FF91FF !important;
+div#navbar ul li.changeBackground:hover  a{
+	color:#FF91FF 
 }
 
 div#navbar {
@@ -110,11 +110,14 @@ div#navbar ul li a {
 	font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
 	font-weight:900;
 	text-decoration:none;
-	color:#368FAD;
+	
 	padding:.5em .5em .2em .5em;
 
 }
 
+div#navbar a {
+	color:#368FAD;
+}
 
 
 li.activePage a{
